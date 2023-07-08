@@ -1,1 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRDY27C1G1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QRDY27C1G1');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfred-Malope</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="bx bx-up-arrow-alt bx-sm"></i>
+    </div>
+  <header>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <a href="Index.html" class="logo">MA<span>LO</span>SE</a>
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-text">
+      <div class="slide">
+        <span class="one">Hello</span>
+        <span class="two">My name is</span>
+      </div>
+      <h1><span>Alfred </span>Malope</h1>
+      <div class="lead-3">I'm a <span class="effect"></span></div>
+      <div class="button">
+        <a href="#contact" class="btn">Let's Chat</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="sec">
+      <img src="alfred1.png" class="snepe">
+    </div>
+
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Full Stack Web Developer</h4>
+      <p>Hello, I'm Alfred Malope, a passionate full stack web developer with expertise in both front-end and back-end development. I create visually appealing and interactive user interfaces using HTML, CSS, and JavaScript. On the back end, I handle server-side programming and database management, ensuring seamless functionality and data handling. I'm dedicated to delivering high-quality, efficient, and user-centric web solutions tailored to meet the unique needs of each project. Let's collaborate and bring your ideas to life!</p>
+      <br>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+    
+  </section>
+
+  <section class="services" id="services">
+    <div class="main-text">
+      <h2><span>What</span> I Do</h2>
+    </div>
+
+    <div class="services-class">
+      <div class="box">
+        <div class="s-icons">
+          <i class="bx bxl-html5 bx-lg"></i>
+        </div>
+        <h3>Front-End</h3>
+        <p>As a skilled front-end developer, I specialize in creating engaging and user-friendly interfaces using HTML, CSS, and JavaScript. With a focus on delivering seamless user experiences, I ensure that your website or web application stands out and captivates your audience. From responsive designs to intuitive interactions, I leverage my expertise to bring your digital vision to life.</p>
+        <a class="read">Read More</a>
+      </div>      
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxs-data bx-lg'></i>
+        </div>
+        <h3>Back-End</h3>
+        <p>With expertise in back-end development, I build robust server-side applications. I handle data management, implement complex functionality, and ensure seamless integration with databases and external services. By leveraging my skills in languages like Java, or Python, I create reliable and scalable solutions to power your website or web application.</p>
+        <a href="#" class="read">Read More</a>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <i class='bx bxs-cctv bx-lg'></i>
+        </div>
+        <h3>CCTV Installation</h3>
+        <p>I offer comprehensive CCTV installation services to enhance the security of your premises. From initial consultation and camera selection to professional installation and system integration, I provide a seamless surveillance solution tailored to your needs. With ongoing maintenance and support, I ensure that your CCTV system remains in optimal condition for maximum effectiveness.</p>
+        <a class="read">Read More</a>
+      </div>
+         
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="main-text">
+      <h2><span>My</span> Projects</h2>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact<span> Me</span></h2>
+      <h4>If you have any projects in mind.</h4>
+      <p>I'm more than happy and available to create a mind-blowing website that meets professional standards in design.</p>
+      <div class="list">
+        <li><a href="tel:063 203 3114"><i class="fa fa-phone"></i> +27 63 203 3114</a></li>
+        <li><a href="mailto:malopealfred12@gmail.com"><i class="fa fa-envelope"></i> malopealfred12@gmail.com</a></li>
+        
+      </div>
+
+    </div>
+    <div class="form">
+      <form action="send_email.php" method="POST">
+        <input type="text" placeholder="Your Name" name="name" required>
+        <input type="email" placeholder="Your Email" name="email" required>
+        <input type="tel" placeholder="Phone Number" name="phone" required>
+        <textarea placeholder="Message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    
+    
+  </section>
+
+  <footer>
+    <div class="footer">
+      <p>&copy; 2023 Alfred Malope. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Close navigation menu on mobile after clicking an option
+      $('.navlist a').click(function() {
+        $('#nav-toggle').prop('checked', false);
+        $('#menu-icon').removeClass('open');
+      });
+  
+      // Toggle the 'open' class on the menu icon when the hamburger menu is clicked
+      $('#menu-icon').click(function() {
+        $(this).toggleClass('open');
+      });
+    });
+  </script>
+  
+</body>
+
+
+
+</html>
